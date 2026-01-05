@@ -24,6 +24,7 @@ export default function BugRepro() {
   return (
     <FormProvider {...form}>
       <div style={{ padding: '20px' }}>
+        <p>Check your console for errors.</p>
         <button onClick={() => setShowConditional(!showConditional)}>
           Toggle Conditional Field
         </button>
